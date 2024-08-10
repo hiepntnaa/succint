@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo apt-get install -y build-essential docker.io docker-compose
 echo "Starting setup and proof process..."
 
 if [ ! -f "loader.sh" ]; then
